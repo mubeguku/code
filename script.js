@@ -2634,9 +2634,9 @@
             });
         }
     };
-    $(document).ready(function() {
+    //$(document).ready(function() {
         console.log('guidePageTemplate.init()');
         $('html').addClass('cxl-active-guide-page-template');
         guidePageTemplate.init();
-    });
+    //});
 })(jQuery);
