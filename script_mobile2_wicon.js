@@ -88,6 +88,7 @@
             'width: 100%;' +
             'text-align: center;' +
             'display: inline-block;' +
+            'text-decoration: underline;' +
             '}'+
             '.cell.three-fifths.lap-one-whole.palm-one-whole.base-padding-top.base-padding-bottom {'+
             'padding-top: 0;'+
