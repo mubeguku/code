@@ -353,7 +353,7 @@ function customPageCode_Var1() {
         var currentUrl = location.pathname.replace('/sem', '');
         $('.cxl-benefits-container.cxl-benefits-container-new').after('\
         <div class="customSecHeader-CTA-group">\
-            <a id="buyers-guide-sem-test" href="' + currentUrl + '#buyers-guide" target="_blank">Read Buying Guide</a>\
+            <a id="buyers-guide-tab-sem" href="' + currentUrl + '#buyers-guide" target="_blank">Read Buying Guide</a>\
         </div>');
     }
 }
