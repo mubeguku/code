@@ -127,7 +127,7 @@
         var h1_text = $('.stack.directory-header.base-margin-bottom .stack-content h1').text();
         $('<a href="#" class="cxl-show-text" id="mobile-expand-content">What is ' + h1_text + '?</a><span class="cxl-close-icon" style="display: none;">×</span>').insertBefore('.stack.directory-header.base-margin-bottom .stack-content h2');
         $('.cxl-show-text').click(function(){
-            //$(this).hide();
+            $(this).hide();
             $('.stack.directory-header.base-margin-bottom .stack-content h2').show();
             $('.cxl-close-icon').show();
         });
@@ -259,7 +259,9 @@
     }, 250);
 
     function numberWithCommas(x) {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        if (x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
     }
     function run_all() {
 
@@ -324,7 +326,6 @@
 
 })(jQuery);
 
-//Variation 1 Mobile | JS | V2
 function customPageCode_Var1() {
     //Tab title HTML and click
     $('.directory-header .stack-content').append('\
@@ -412,6 +413,5 @@ function customPageCode_Var1() {
     });}
 
 $(document).ready(function() {
-    console.log('Capterra SEM page - Buyers Guide V2 Mobile | Var1');
     customPageCode_Var1();
 });
