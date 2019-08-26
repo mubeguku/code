@@ -331,7 +331,7 @@ function customPageCode_Var1() {
 	<div class="customTabTitle">\
 	    <ul>\
 	        <li id="view-products-tab-sem" class="active">List of Products</li>\
-	        <li id="buyers-guide-tab-sem"><i class="ss-book  color-blue  icon-lead"></i> Buying Guide</li>\
+	        <li id="buyers-guide-tab-sem">Buying Guide</li>\
 	    </ul>\
 	</div>\
 	');
